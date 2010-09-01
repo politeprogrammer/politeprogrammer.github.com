@@ -2,10 +2,16 @@
 layout: main
 tab: contact
 ---
-* Jim Weirich  
-  jim.weirich@gmail.com  
-  [@jimweirich](http://twitter.com/jimweirich)
+# Jim Weirich
 
-* Chris Nelson  
-  ??  
-  [@superchris](http://twitter.com/superchris)
+EMail:   [jim@edgecase.com](mailto:jim@edgecase.com)   
+Twitter: [@jimweirich](http://twitter.com/jimweirich)
+
+# Chris Nelson
+
+EMail:   [chris@gaslightsoftware.com](mailto:chris@gaslightsoftware.com)   
+Twitter: [@superchris](http://twitter.com/superchris)
+
+# Questions and Suggestions
+
+EMail: [mr_manners@politeprogrammer.com](mailto:mr_manners@politeprogrammer.com)
