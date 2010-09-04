@@ -50,7 +50,7 @@ consuming.
 Which leads us to our first rule of polite programming ...
 
 <div class="rule">
-<div class="title">Mr. Manner's Rules of Programming Etiquette Says:</div>
+<div class="title">Mr. Manner's Rules of Programming Etiquette Say:</div>
 
 <p>When replacing a function, make sure you obey the contract of the
 original implementation</p>
