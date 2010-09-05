@@ -42,38 +42,7 @@
               </div>
             </div>
             <!-- end #content -->
-            <div id="sidebar">
-              <ul>
-                <li>
-                  <div id="search" >
-                    <form method="get" action="#">
-                      <div>
-                        <input type="text" name="s" id="search-text" value="" />
-                        <input type="submit" id="search-submit" value="GO" />
-                      </div>
-                    </form>
-                  </div>
-                  <div style="clear: both;">&nbsp;</div>
-                </li>
-                <li>
-                  <h2>About Us</h2>
-                  <p>
-                    We are Jim Weirich and Chris Nelson.  We believe
-                    it is vital to be polite when programming.  This
-                    blog is some of our thoughts on the topic.
-                  </p>
-                </li>
-                <li>
-                  <h2>Categories</h2>
-                  <ul>
-                    {% for cat in site.categories %}
-                    <li>{{ cat | first }}</li>
-                    {% endfor %}
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <!-- end #sidebar -->
+            {% include sidebar.html %}
             <div style="clear: both;">&nbsp;</div>
           </div>
         </div>
