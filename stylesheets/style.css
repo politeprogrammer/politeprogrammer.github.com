@@ -382,8 +382,14 @@ a:hover {
     background: #cfc;
     padding-bottom: 0em;
 }
-.rule .title {
+.rule .banner {
+    text-align: center;
     font-size: 120%;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+.rule .enumeration {
     font-weight: bold;
     padding: 7px 0px 0px 0px;
 }
