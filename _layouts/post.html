@@ -23,7 +23,6 @@
   <body>
     <div id="wrapper">
       {% include header.html %}
-     <!-- end #header -->
       <div id="page">
         <div id="page-bgtop">
           <div id="page-bgbtm">
@@ -35,24 +34,24 @@
                   <p>
                     <em>
                       Posted on {{ page.date | date_to_long_string }}
-                      by {{ page.author }}.
+                      by {{ page.author }}
+                      (<a href="{{ post.url }}#disqus_thread">no Comments</a>).
                     </em>
                   </p>
+                  {% include disqus_thread.html %}
                 </div>
               </div>
             </div>
-            <!-- end #content -->
             {% include sidebar.html %}
             <div style="clear: both;">&nbsp;</div>
           </div>
         </div>
       </div>
-      <!-- end #page -->
-    </div>
+   </div>
     <div id="footer">
       <!-- Please leave the link to http://www.100webhosting.com intact -->
       <p>Copyright &copy; 2010 <a href="http://politeprogrammer.com"><strong>politeprogrammer.com</strong></a> | Design by <a href="http://www.100webhosting.com/"><strong>100 Web Hosting</strong></a>.</p>
     </div>
-    <!-- end #footer -->
-  </body>
+    {% disqus_comment_counter.html %}
+ </body>
 </html>
