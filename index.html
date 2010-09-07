@@ -13,7 +13,8 @@ tab: home
     <p>
       <em>
         Posted on {{ post.date | date_to_long_string }}
-        by {{ post.author }}.
+        by {{ post.author }}
+        (<a href="{{ post.url }}#disqus_thread">no Comments</a>).
       </em>
     </p>
   </div>
