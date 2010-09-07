@@ -1,6 +1,7 @@
 ---
 title: On Politeness
 author: Jim Weirich
+layout: post
 ---
 
 One of the first projects I worked on after joining

@@ -1,6 +1,7 @@
 ---
 title: More on Rule 1
 author: Jim Weirich
+layout: post
 ---
 In our last post, we introduced Mr. Manners Rule #1 of Programming Etiquette:
 
