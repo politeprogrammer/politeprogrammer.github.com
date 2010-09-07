@@ -38,24 +38,8 @@
                       (<a href="{{ post.url }}#disqus_thread">no Comments</a>).
                     </em>
                   </p>
-                  <div id="disqus_thread">
-                  </div>
-                  <script type="text/javascript">
-                    /**
-                    * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread]
-                    */
-                    (function() {
-                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                    dsq.src = 'http://politeprogrammer.disqus.com/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                    })();
-                  </script>
-                  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=politeprogrammer">comments powered by Disqus.</a></noscript>
-                  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-                  <script type="text/javascript">
-                    var disqus_developer = 0;
-                  </script>
-               </div>
+                  {% include disqus_thread.html %}
+                </div>
               </div>
             </div>
             {% include sidebar.html %}
@@ -68,15 +52,6 @@
       <!-- Please leave the link to http://www.100webhosting.com intact -->
       <p>Copyright &copy; 2010 <a href="http://politeprogrammer.com"><strong>politeprogrammer.com</strong></a> | Design by <a href="http://www.100webhosting.com/"><strong>100 Web Hosting</strong></a>.</p>
     </div>
-
-    <!-- DISQUS COMMENT COUNTER --------- -->
-    <script type="text/javascript">
-      var disqus_shortname = 'politeprogrammer';
-      (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.src = 'http://disqus.com/forums/politeprogrammer/count.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-      }());
-    </script>
-  </body>
+    {% disqus_comment_counter.html %}
+ </body>
 </html>
